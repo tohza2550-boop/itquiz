@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #080808;
+  color: white;
+}
+
+/* =========================
+   LOGIN PAGE
+========================= */
+
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    radial-gradient(
+      circle at top center,
+      #3b0b0b 0%,
+      #160606 35%,
+      #080808 70%
+    );
+
+  padding: 20px;
+}
+
+.login-box {
+  width: 420px;
+  padding: 45px 40px;
+
+  background: rgba(20, 20, 20, 0.95);
+
+  border: 1px solid #7d1717;
+  border-radius: 18px;
+
+  box-shadow:
+    0 0 30px rgba(180, 0, 0, 0.25),
+    0 0 70px rgba(180, 0, 0, 0.1);
+
+  text-align: center;
+}
+
+.login-icon {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.login-box h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.login-box > p {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ddd;
+  font-size: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+
+  border-radius: 8px;
+  border: 1px solid #444;
+
+  background: #111;
+  color: white;
+
+  outline: none;
+
+  font-size: 15px;
+}
+
+.input-group input::placeholder {
+  color: #666;
+}
+
+.input-group input:focus {
+  border-color: #d62828;
+
+  box-shadow:
+    0 0 10px rgba(214, 40, 40, 0.3);
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 5px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #b71919;
+  color: white;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background: #e02525;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 5px 20px rgba(220, 0, 0, 0.3);
+}
+
+.login-hint {
+  margin-top: 25px !important;
+
+  font-size: 13px;
+
+  color: #777 !important;
+
+  line-height: 1.7;
+}
+
+/* =========================
+   PROFILE PAGE
+========================= */
+
+.profile-page {
+  width: 100%;
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      #351010 0%,
+      transparent 35%
+    ),
+    #080808;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+
+  padding: 0 7%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(10, 10, 10, 0.95);
+
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-size: 20px;
+
+  font-weight: bold;
+
+  letter-spacing: 2px;
+}
+
+.logout-button {
+  padding: 10px 20px;
+
+  border: 1px solid #8d1b1b;
+  border-radius: 7px;
+
+  background: transparent;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.logout-button:hover {
+  background: #a81717;
+
+  box-shadow:
+    0 0 15px rgba(180, 0, 0, 0.3);
+}
+
+/* =========================
+   PROFILE
+========================= */
+
+.profile-container {
+  width: 90%;
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 70px 0;
+}
+
+.character-card {
+  display: grid;
+
+  grid-template-columns: 420px 1fr;
+
+  gap: 60px;
+
+  align-items: center;
+}
+
+.character-image-box {
+  width: 100%;
+  height: 520px;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  border: 1px solid #7d1717;
+
+  background: #111;
+
+  box-shadow:
+    0 0 35px rgba(150, 0, 0, 0.2);
+}
+
+.character-image {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.character-info {
+  padding: 10px;
+}
+
+.character-label {
+  color: #d52b2b;
+
+  font-size: 13px;
+
+  letter-spacing: 3px;
+}
+
+.character-info h1 {
+  margin-top: 15px;
+
+  font-size: 40px;
+
+  color: white;
+}
+
+.character-title {
+  margin-top: 10px;
+
+  color: #aaa;
+
+  font-size: 20px;
+}
+
+.info-box {
+  margin-top: 35px;
+
+  padding: 25px;
+
+  border-left: 3px solid #b71919;
+
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.info-box h2 {
+  margin-bottom: 15px;
+}
+
+.info-box p {
+  color: #bbb;
+
+  line-height: 1.8;
+
+  margin-bottom: 12px;
+}
+
+/* =========================
+   STATS
+========================= */
+
+.stats-section {
+  margin-top: 100px;
+}
+
+.stats-section h2,
+.story-section h2 {
+  margin-bottom: 30px;
+
+  font-size: 30px;
+}
+
+.stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.stat-box {
+  padding: 25px;
+
+  background: #111;
+
+  border: 1px solid #292929;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.stat-box:hover {
+  border-color: #9e1c1c;
+
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 5px 20px rgba(150, 0, 0, 0.15);
+}
+
+.stat-box span {
+  display: block;
+
+  color: #777;
+
+  margin-bottom: 10px;
+}
+
+.stat-box strong {
+  font-size: 18px;
+
+  color: white;
+}
+
+/* =========================
+   STORY
+========================= */
+
+.story-section {
+  margin-top: 80px;
+
+  padding: 40px;
+
+  background: #111;
+
+  border-radius: 15px;
+
+  border: 1px solid #292929;
+}
+
+.story-section p {
+  color: #bbb;
+
+  line-height: 2;
+
+  font-size: 17px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  width: 100%;
+
+  text-align: center;
+
+  padding: 30px;
+
+  color: #666;
+
+  border-top: 1px solid #222;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 850px) {
+
+  .character-card {
+    grid-template-columns: 1fr;
+  }
+
+  .character-image-box {
+    height: 450px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .login-box {
+    width: 100%;
+
+    padding: 35px 25px;
+  }
+
+  .character-info h1 {
+    font-size: 30px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-container {
+    width: 92%;
+  }
+
+  .navbar {
+    padding: 0 5%;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+}

@@ -26,6 +26,7 @@ body {
 .login-page {
   width: 100%;
   min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,6 +292,10 @@ body {
   font-size: 20px;
 }
 
+/* =========================
+   CHARACTER STORY
+========================= */
+
 .info-box {
   margin-top: 35px;
 
@@ -303,10 +308,12 @@ body {
 
 .info-box h2 {
   margin-bottom: 15px;
+
+  color: #ffffff;
 }
 
 .info-box p {
-  color: #bbb;
+  color: #ffffff;
 
   line-height: 1.8;
 
@@ -326,6 +333,8 @@ body {
   margin-bottom: 30px;
 
   font-size: 30px;
+
+  color: #ffffff;
 }
 
 .stats-grid {
@@ -387,8 +396,16 @@ body {
   border: 1px solid #292929;
 }
 
+.story-section h2 {
+  color: #ffffff;
+
+  margin-bottom: 30px;
+
+  font-size: 30px;
+}
+
 .story-section p {
-  color: #bbb;
+  color: #ffffff;
 
   line-height: 2;
 

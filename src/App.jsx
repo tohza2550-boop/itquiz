@@ -26,9 +26,9 @@ function App() {
     return (
       <div className="login-page">
         <div className="login-box">
-          <div className="login-icon">⚔️</div>
+          <div className="login-icon">⚔️🥶💀🧣</div>
 
-          <h1>CHARACTER WORLD</h1>
+          <h1>CHARACTER WEB</h1>
           <p>เข้าสู่ระบบเพื่อดูประวัติตัวละคร</p>
 
           <form onSubmit={handleLogin}>
@@ -70,7 +70,7 @@ function App() {
     <div className="profile-page">
 
       <nav className="navbar">
-        <div className="logo">CHARACTER WORLD</div>
+        <div className="logo">CHARACTER WEB</div>
 
         <button onClick={logout} className="logout-button">
           LOGOUT
@@ -95,27 +95,21 @@ function App() {
               CHARACTER PROFILE
             </span>
 
-            <h1>ชื่อ : Shadow Knight</h1>
+            <h1>ชื่อ : Mikasa Ackerman</h1>
 
             <p className="character-title">
-              อัศวินแห่งเงามืด
+              ทหารรับจ้างในเงามืด
             </p>
 
             <div className="info-box">
               <h2>ประวัติตัวละคร</h2>
 
               <p>
-                Shadow Knight เป็นนักรบผู้ลึกลับ
-                ที่เดินทางอยู่ในดินแดนแห่งสงคราม
-                เขาเป็นอัศวินที่มีความสามารถในการใช้ดาบ
-                และสามารถควบคุมพลังแห่งเงาได้
+                มิคาสะเคยอาศัยอยู่อย่างสงบสุขกับพ่อแม่ในเขตกำแพงมาเรีย จนกระทั่งวันหนึ่งพ่อแม่ของเธอถูกกลุ่มโจรโจรลักพาตัวฆ่าตาย
               </p>
 
               <p>
-                ในอดีตเขาเคยเป็นผู้พิทักษ์อาณาจักร
-                แต่หลังจากเหตุการณ์ครั้งใหญ่
-                เขาจึงออกเดินทางเพื่อค้นหาความจริง
-                และปกป้องผู้คนที่อ่อนแอ
+                ในเหตุการณ์นั้น เอเรน เยเกอร์ ได้เข้าช่วยชีวิตเธอไว้ และกระตุ้นสัญชาตญาณการต่อสู้ในตัวเธอ หลังจากนั้น กริชา เยเกอร์ (พ่อของเอเรน) จึงรับเธอมาเลี้ยงดูเหมือนลูกสาว และเอเรนได้มอบ "ผ้าพันคอสีแดง" ให้เธอไว้ ซึ่งกลายเป็นสิ่งสำคัญที่เธอใส่ติดตัวเสมอ
               </p>
             </div>
 
@@ -131,32 +125,32 @@ function App() {
 
             <div className="stat-box">
               <span>ชื่อ</span>
-              <strong>Shadow Knight</strong>
+              <strong>Mikasa Ackerman</strong>
             </div>
 
             <div className="stat-box">
               <span>อายุ</span>
-              <strong>25 ปี</strong>
+              <strong>19 ปี</strong>
             </div>
 
             <div className="stat-box">
               <span>อาชีพ</span>
-              <strong>อัศวิน</strong>
+              <strong>ทหารสังกัดหน่วยสำรวจ</strong>
             </div>
 
             <div className="stat-box">
               <span>อาวุธ</span>
-              <strong>Dark Sword</strong>
+              <strong>ดาบคู่คัตเตอร์</strong>
             </div>
 
             <div className="stat-box">
               <span>พลัง</span>
-              <strong>Shadow Magic</strong>
+              <strong>สัญชาตญาณความสามารถระดับอัจฉริยะ</strong>
             </div>
 
             <div className="stat-box">
               <span>เผ่าพันธุ์</span>
-              <strong>Human</strong>
+              <strong>มนุษย์ (ลูกครึ่งสายเลือดแอคเคอร์แมน)</strong>
             </div>
 
           </div>
@@ -168,10 +162,9 @@ function App() {
           <h2>เรื่องราวของตัวละคร</h2>
 
           <p>
-            เมื่ออาณาจักรถูกกองทัพปีศาจโจมตี
-            Shadow Knight ได้กลับมายังสนามรบอีกครั้ง
-            เพื่อหยุดยั้งสงครามและค้นหาความจริง
-            เบื้องหลังเหตุการณ์ที่เกิดขึ้น
+            มิคาสะสูญเสียพ่อแม่ไปตั้งแต่เด็กจากเหตุการณ์ถูกกลุ่มโจรลักพาตัวฆ่าตายอย่างโหดเหี้ยม
+            เธอได้รับการช่วยเหลือจาก เอเรน เยเกอร์ 
+            เด็กชายที่เข้ามาร่วมสู้และจุดประกายสัญชาตญาณการต่อสู้ในตัวเธอให้ตื่นขึ้น
           </p>
 
         </section>
@@ -179,7 +172,7 @@ function App() {
       </main>
 
       <footer>
-        © 2026 Character World
+        © 2026 Character WEB
       </footer>
 
     </div>
